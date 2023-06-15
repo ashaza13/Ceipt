@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Text("Hello, World!")
+        }
     }
 }
 

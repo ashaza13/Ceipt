@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A46B7502A3BAA80001666CF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46B74F2A3BAA80001666CF /* LandingView.swift */; };
+		0A46B7532A3BAC24001666CF /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46B7522A3BAC24001666CF /* ColorExtension.swift */; };
+		0A46B7552A3BB1CE001666CF /* SailecFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46B7542A3BB1CE001666CF /* SailecFontModifier.swift */; };
 		0A999B442A3AB7350045D3D6 /* CeiptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A999B432A3AB7350045D3D6 /* CeiptApp.swift */; };
 		0A999B462A3AB7350045D3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A999B452A3AB7350045D3D6 /* ContentView.swift */; };
 		0A999B482A3AB7360045D3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A999B472A3AB7360045D3D6 /* Assets.xcassets */; };
@@ -18,9 +21,17 @@
 		0A999B5B2A3AB8780045D3D6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0A999B5A2A3AB8780045D3D6 /* FirebaseStorage */; };
 		0A999B602A3AB91C0045D3D6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A999B5F2A3AB91C0045D3D6 /* LoginViewModel.swift */; };
 		0A999B642A3AB9860045D3D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A999B632A3AB9860045D3D6 /* LoginView.swift */; };
+		0AA8D3142A3BB70A0074B26C /* Sailec-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8D3112A3BB70A0074B26C /* Sailec-Medium.ttf */; };
+		0AA8D3152A3BB70A0074B26C /* Sailec-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8D3122A3BB70A0074B26C /* Sailec-Bold.ttf */; };
+		0AA8D3162A3BB70A0074B26C /* Sailec.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8D3132A3BB70A0074B26C /* Sailec.ttf */; };
+		0AA8D3192A3BBB720074B26C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8D3182A3BBB720074B26C /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A46B74F2A3BAA80001666CF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		0A46B7522A3BAC24001666CF /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0A46B7542A3BB1CE001666CF /* SailecFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailecFontModifier.swift; sourceTree = "<group>"; };
+		0A46B75D2A3BB464001666CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0A999B402A3AB7350045D3D6 /* Ceipt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceipt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A999B432A3AB7350045D3D6 /* CeiptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeiptApp.swift; sourceTree = "<group>"; };
 		0A999B452A3AB7350045D3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +40,10 @@
 		0A999B512A3AB7640045D3D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A999B5F2A3AB91C0045D3D6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		0A999B632A3AB9860045D3D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0AA8D3112A3BB70A0074B26C /* Sailec-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sailec-Medium.ttf"; sourceTree = "<group>"; };
+		0AA8D3122A3BB70A0074B26C /* Sailec-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sailec-Bold.ttf"; sourceTree = "<group>"; };
+		0AA8D3132A3BB70A0074B26C /* Sailec.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sailec.ttf; sourceTree = "<group>"; };
+		0AA8D3182A3BBB720074B26C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A46B7512A3BAC06001666CF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A46B7522A3BAC24001666CF /* ColorExtension.swift */,
+				0A46B7542A3BB1CE001666CF /* SailecFontModifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0A999B372A3AB7350045D3D6 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +89,9 @@
 		0A999B422A3AB7350045D3D6 /* Ceipt */ = {
 			isa = PBXGroup;
 			children = (
+				0AA8D3102A3BB6EB0074B26C /* sailec */,
+				0A46B75D2A3BB464001666CF /* Info.plist */,
+				0A46B7512A3BAC06001666CF /* Helpers */,
 				0A999B5D2A3AB90B0045D3D6 /* Models */,
 				0A999B5C2A3AB9000045D3D6 /* Views */,
 				0A999B512A3AB7640045D3D6 /* GoogleService-Info.plist */,
@@ -88,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				0A999B632A3AB9860045D3D6 /* LoginView.swift */,
+				0A46B74F2A3BAA80001666CF /* LandingView.swift */,
+				0AA8D3182A3BBB720074B26C /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +127,16 @@
 				0A999B5F2A3AB91C0045D3D6 /* LoginViewModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0AA8D3102A3BB6EB0074B26C /* sailec */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8D3122A3BB70A0074B26C /* Sailec-Bold.ttf */,
+				0AA8D3112A3BB70A0074B26C /* Sailec-Medium.ttf */,
+				0AA8D3132A3BB70A0074B26C /* Sailec.ttf */,
+			);
+			path = sailec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA8D3142A3BB70A0074B26C /* Sailec-Medium.ttf in Resources */,
+				0AA8D3162A3BB70A0074B26C /* Sailec.ttf in Resources */,
+				0AA8D3152A3BB70A0074B26C /* Sailec-Bold.ttf in Resources */,
 				0A999B4B2A3AB7360045D3D6 /* Preview Assets.xcassets in Resources */,
 				0A999B522A3AB7640045D3D6 /* GoogleService-Info.plist in Resources */,
 				0A999B482A3AB7360045D3D6 /* Assets.xcassets in Resources */,
@@ -181,8 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A999B462A3AB7350045D3D6 /* ContentView.swift in Sources */,
+				0A46B7502A3BAA80001666CF /* LandingView.swift in Sources */,
 				0A999B442A3AB7350045D3D6 /* CeiptApp.swift in Sources */,
+				0A46B7532A3BAC24001666CF /* ColorExtension.swift in Sources */,
+				0AA8D3192A3BBB720074B26C /* SignUpView.swift in Sources */,
 				0A999B642A3AB9860045D3D6 /* LoginView.swift in Sources */,
+				0A46B7552A3BB1CE001666CF /* SailecFontModifier.swift in Sources */,
 				0A999B602A3AB91C0045D3D6 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +361,7 @@
 				DEVELOPMENT_TEAM = J39CLB89BS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceipt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +391,7 @@
 				DEVELOPMENT_TEAM = J39CLB89BS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceipt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
